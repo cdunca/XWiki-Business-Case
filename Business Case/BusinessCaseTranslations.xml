@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Business Case</web>
+<name>BusinessCaseTranslations</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>BusinessCaseClass</parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1408357208000</creationDate>
+<date>1408357208000</date>
+<contentUpdateDate>1408357208000</contentUpdateDate>
+<version>1.1</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment>Update translations</comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>true</hidden>
+<object>
+<class>
+<name>XWiki.TranslationDocumentClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<scope>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>scope</name>
+<number>1</number>
+<prettyName>Scope</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>GLOBAL|WIKI|USER|ON_DEMAND</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</scope>
+</class>
+<name>Business Case.BusinessCaseTranslations</name>
+<number>0</number>
+<className>XWiki.TranslationDocumentClass</className>
+<guid>f5f069ba-85c0-434e-99bd-01318f03b07f</guid>
+<property>
+<scope>ON_DEMAND</scope>
+</property>
+</object>
+<content># Class fields
+Business Case.BusinessCaseClass_staticList1=Solution Icon
+Business Case.BusinessCaseClass_staticList1_value3=Third Choice
+Business Case.BusinessCaseClass_staticList1_value1=First Choice
+Business Case.BusinessCaseClass_staticList1_value2=Second Choice
+Business Case.BusinessCaseClass_shortText1=Business case name
+Business Case.BusinessCaseClass_shortText2=Client name
+Business Case.BusinessCaseClass_shortText3=Client's market
+Business Case.BusinessCaseClass_shortText4=Project name
+Business Case.BusinessCaseClass_shortText5=XWiki solution &amp; service
+Business Case.BusinessCaseClass_shortText6=Screenshot
+Business Case.BusinessCaseClass_longText1=About the client
+Business Case.BusinessCaseClass_longText2=Context &amp; needs
+Business Case.BusinessCaseClass_longText3=Solution provided by XWiki
+Business Case.BusinessCaseClass_longText4=Results
+Business Case.BusinessCaseClass_shortText7=Client testimonial
+Business Case.BusinessCaseClass_longText5=Footer
+
+# Live table generic keys
+businesscase.livetable.doc.title=Page title
+businesscase.livetable.doc.name=Page name
+businesscase.livetable.doc.space=Space
+businesscase.livetable.doc.fullname=Page full name
+businesscase.livetable.doc.author=Last Author
+businesscase.livetable.doc.creator=Creator
+businesscase.livetable.doc.date=Update date
+businesscase.livetable.doc.creationDate=Creation date
+businesscase.livetable._avatar=Avatar
+businesscase.livetable._images=Images
+businesscase.livetable._attachments=Attachments
+businesscase.livetable._actions=Actions
+businesscase.livetable._actions.edit=Edit
+businesscase.livetable._actions.delete=Delete
+businesscase.livetable.emptyvalue=-
+
+# Live table specific keys
+businesscase.livetable.staticList1=Solution Icon
+businesscase.livetable.shortText1=Business case name
+businesscase.livetable.shortText2=Client name
+businesscase.livetable.shortText3=Client's market
+businesscase.livetable.shortText4=Project name
+businesscase.livetable.shortText5=XWiki solution &amp; service
+businesscase.livetable.shortText6=Screenshot
+businesscase.livetable.longText1=About the client
+businesscase.livetable.longText2=Context &amp; needs
+businesscase.livetable.longText3=Solution provided by XWiki
+businesscase.livetable.longText4=Results
+businesscase.livetable.shortText7=Client testimonial
+businesscase.livetable.longText5=Footer</content>
+<versions>head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2014.08.18.13.20.08;	author XWiki_2EAdmin;	state full;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Update translations
+@
+text
+@&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xwikidoc&gt;
+&lt;web&gt;Business Case&lt;/web&gt;
+&lt;name&gt;BusinessCaseTranslations&lt;/name&gt;
+&lt;language&gt;&lt;/language&gt;
+&lt;defaultLanguage&gt;&lt;/defaultLanguage&gt;
+&lt;translation&gt;0&lt;/translation&gt;
+&lt;parent&gt;BusinessCaseClass&lt;/parent&gt;
+&lt;creator&gt;XWiki.Admin&lt;/creator&gt;
+&lt;author&gt;XWiki.Admin&lt;/author&gt;
+&lt;customClass&gt;&lt;/customClass&gt;
+&lt;contentAuthor&gt;XWiki.Admin&lt;/contentAuthor&gt;
+&lt;creationDate&gt;1408357208000&lt;/creationDate&gt;
+&lt;date&gt;1408357208000&lt;/date&gt;
+&lt;contentUpdateDate&gt;1408357208000&lt;/contentUpdateDate&gt;
+&lt;version&gt;1.1&lt;/version&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;defaultTemplate&gt;&lt;/defaultTemplate&gt;
+&lt;validationScript&gt;&lt;/validationScript&gt;
+&lt;comment&gt;Update translations&lt;/comment&gt;
+&lt;minorEdit&gt;false&lt;/minorEdit&gt;
+&lt;syntaxId&gt;xwiki/2.1&lt;/syntaxId&gt;
+&lt;hidden&gt;true&lt;/hidden&gt;
+&lt;object&gt;
+&lt;class&gt;
+&lt;name&gt;XWiki.TranslationDocumentClass&lt;/name&gt;
+&lt;customClass&gt;&lt;/customClass&gt;
+&lt;customMapping&gt;&lt;/customMapping&gt;
+&lt;defaultViewSheet&gt;&lt;/defaultViewSheet&gt;
+&lt;defaultEditSheet&gt;&lt;/defaultEditSheet&gt;
+&lt;defaultWeb&gt;&lt;/defaultWeb&gt;
+&lt;nameField&gt;&lt;/nameField&gt;
+&lt;validationScript&gt;&lt;/validationScript&gt;
+&lt;scope&gt;
+&lt;cache&gt;0&lt;/cache&gt;
+&lt;disabled&gt;0&lt;/disabled&gt;
+&lt;displayType&gt;select&lt;/displayType&gt;
+&lt;multiSelect&gt;0&lt;/multiSelect&gt;
+&lt;name&gt;scope&lt;/name&gt;
+&lt;number&gt;1&lt;/number&gt;
+&lt;prettyName&gt;Scope&lt;/prettyName&gt;
+&lt;relationalStorage&gt;0&lt;/relationalStorage&gt;
+&lt;separator&gt; &lt;/separator&gt;
+&lt;separators&gt; ,|&lt;/separators&gt;
+&lt;size&gt;1&lt;/size&gt;
+&lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+&lt;values&gt;GLOBAL|WIKI|USER|ON_DEMAND&lt;/values&gt;
+&lt;classType&gt;com.xpn.xwiki.objects.classes.StaticListClass&lt;/classType&gt;
+&lt;/scope&gt;
+&lt;/class&gt;
+&lt;name&gt;Business Case.BusinessCaseTranslations&lt;/name&gt;
+&lt;number&gt;0&lt;/number&gt;
+&lt;className&gt;XWiki.TranslationDocumentClass&lt;/className&gt;
+&lt;guid&gt;f5f069ba-85c0-434e-99bd-01318f03b07f&lt;/guid&gt;
+&lt;property&gt;
+&lt;scope&gt;ON_DEMAND&lt;/scope&gt;
+&lt;/property&gt;
+&lt;/object&gt;
+&lt;content&gt;# Class fields
+Business Case.BusinessCaseClass_staticList1=Solution Icon
+Business Case.BusinessCaseClass_staticList1_value3=Third Choice
+Business Case.BusinessCaseClass_staticList1_value1=First Choice
+Business Case.BusinessCaseClass_staticList1_value2=Second Choice
+Business Case.BusinessCaseClass_shortText1=Business case name
+Business Case.BusinessCaseClass_shortText2=Client name
+Business Case.BusinessCaseClass_shortText3=Client's market
+Business Case.BusinessCaseClass_shortText4=Project name
+Business Case.BusinessCaseClass_shortText5=XWiki solution &amp;amp; service
+Business Case.BusinessCaseClass_shortText6=Screenshot
+Business Case.BusinessCaseClass_longText1=About the client
+Business Case.BusinessCaseClass_longText2=Context &amp;amp; needs
+Business Case.BusinessCaseClass_longText3=Solution provided by XWiki
+Business Case.BusinessCaseClass_longText4=Results
+Business Case.BusinessCaseClass_shortText7=Client testimonial
+Business Case.BusinessCaseClass_longText5=Footer
+
+# Live table generic keys
+businesscase.livetable.doc.title=Page title
+businesscase.livetable.doc.name=Page name
+businesscase.livetable.doc.space=Space
+businesscase.livetable.doc.fullname=Page full name
+businesscase.livetable.doc.author=Last Author
+businesscase.livetable.doc.creator=Creator
+businesscase.livetable.doc.date=Update date
+businesscase.livetable.doc.creationDate=Creation date
+businesscase.livetable._avatar=Avatar
+businesscase.livetable._images=Images
+businesscase.livetable._attachments=Attachments
+businesscase.livetable._actions=Actions
+businesscase.livetable._actions.edit=Edit
+businesscase.livetable._actions.delete=Delete
+businesscase.livetable.emptyvalue=-
+
+# Live table specific keys
+businesscase.livetable.staticList1=Solution Icon
+businesscase.livetable.shortText1=Business case name
+businesscase.livetable.shortText2=Client name
+businesscase.livetable.shortText3=Client's market
+businesscase.livetable.shortText4=Project name
+businesscase.livetable.shortText5=XWiki solution &amp;amp; service
+businesscase.livetable.shortText6=Screenshot
+businesscase.livetable.longText1=About the client
+businesscase.livetable.longText2=Context &amp;amp; needs
+businesscase.livetable.longText3=Solution provided by XWiki
+businesscase.livetable.longText4=Results
+businesscase.livetable.shortText7=Client testimonial
+businesscase.livetable.longText5=Footer&lt;/content&gt;&lt;/xwikidoc&gt;
+@
+</versions></xwikidoc>

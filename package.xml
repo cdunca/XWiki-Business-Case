@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+<infos/>
+<name>Business Case</name>
+<description>Simple Internal App to manage business documents</description>
+<licence>LGPL</licence>
+<author>Cristian Dunca</author>
+<version>0.1</version>
+<backupPack>false</backupPack>
+<preserveVersion>false</preserveVersion><files>
+<file defaultAction="0" language="">Business Case.PDFTemplate</file>
+<file defaultAction="0" language="">Business Case.BusinessCaseSheet</file>
+<file defaultAction="0" language="">Business Case.PDFClass</file>
+<file defaultAction="0" language="">Business Case.PDFSheet</file>
+<file defaultAction="0" language="">Business Case.Translations</file>
+<file defaultAction="0" language="">Business Case.WebPreferences</file>
+<file defaultAction="0" language="">Business Case.BusinessCaseLiveTableResults</file>
+<file defaultAction="0" language="">Business Case.WebHome</file>
+<file defaultAction="0" language="">Business Case.BusinessCaseTranslations</file>
+<file defaultAction="0" language="">Business Case.BusinessCaseClass</file>
+<file defaultAction="0" language="">Business Case.BusinessCaseTemplate</file></files></package>

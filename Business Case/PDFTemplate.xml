@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Business Case</web>
+<name>PDFTemplate</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent>Business Case.PDFClass</parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1408460410000</creationDate>
+<date>1408537435000</date>
+<contentUpdateDate>1408460435000</contentUpdateDate>
+<version>1.4</version>
+<title>PDF Template</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>Business Case.PDFClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<fopxsl>
+<disabled>0</disabled>
+<name>fopxsl</name>
+<number>3</number>
+<prettyName>fopxsl</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</fopxsl>
+<style>
+<disabled>0</disabled>
+<name>style</name>
+<number>1</number>
+<prettyName>style</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</style>
+<xhtmlxsl>
+<disabled>0</disabled>
+<name>xhtmlxsl</name>
+<number>2</number>
+<prettyName>xhtmlxsl</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</xhtmlxsl>
+</class>
+<name>Business Case.PDFTemplate</name>
+<number>0</number>
+<className>Business Case.PDFClass</className>
+<guid>f03e35f0-566e-4a34-b121-7a65fe3fbf02</guid>
+<property>
+<fopxsl></fopxsl>
+</property>
+<property>
+<style>.footer
+{
+  text-align: left;
+}</style>
+</property>
+<property>
+<xhtmlxsl></xhtmlxsl>
+</property>
+</object>
+<content></content>
+<versions>head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2014.08.20.15.23.55;	author XWiki_2EAdmin;	state full;
+branches;
+next	1.3;
+
+1.3
+date	2014.08.20.15.22.29;	author XWiki_2EAdmin;	state diff;
+branches;
+next	1.2;
+
+1.2
+date	2014.08.19.18.00.35;	author XWiki_2EAdmin;	state diff;
+branches;
+next	1.1;
+
+1.1
+date	2014.08.19.18.00.10;	author XWiki_2EAdmin;	state diff;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@@
+text
+@&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xwikidoc&gt;
+&lt;web&gt;Business Case&lt;/web&gt;
+&lt;name&gt;PDFTemplate&lt;/name&gt;
+&lt;language&gt;&lt;/language&gt;
+&lt;defaultLanguage&gt;en&lt;/defaultLanguage&gt;
+&lt;translation&gt;0&lt;/translation&gt;
+&lt;parent&gt;Business Case.PDFClass&lt;/parent&gt;
+&lt;creator&gt;XWiki.Admin&lt;/creator&gt;
+&lt;author&gt;XWiki.Admin&lt;/author&gt;
+&lt;customClass&gt;&lt;/customClass&gt;
+&lt;contentAuthor&gt;XWiki.Admin&lt;/contentAuthor&gt;
+&lt;creationDate&gt;1408460410000&lt;/creationDate&gt;
+&lt;date&gt;1408537435000&lt;/date&gt;
+&lt;contentUpdateDate&gt;1408460435000&lt;/contentUpdateDate&gt;
+&lt;version&gt;1.4&lt;/version&gt;
+&lt;title&gt;PDF Template&lt;/title&gt;
+&lt;defaultTemplate&gt;&lt;/defaultTemplate&gt;
+&lt;validationScript&gt;&lt;/validationScript&gt;
+&lt;comment&gt;&lt;/comment&gt;
+&lt;minorEdit&gt;true&lt;/minorEdit&gt;
+&lt;syntaxId&gt;xwiki/2.1&lt;/syntaxId&gt;
+&lt;hidden&gt;false&lt;/hidden&gt;
+&lt;object&gt;
+&lt;class&gt;
+&lt;name&gt;Business Case.PDFClass&lt;/name&gt;
+&lt;customClass&gt;&lt;/customClass&gt;
+&lt;customMapping&gt;&lt;/customMapping&gt;
+&lt;defaultViewSheet&gt;&lt;/defaultViewSheet&gt;
+&lt;defaultEditSheet&gt;&lt;/defaultEditSheet&gt;
+&lt;defaultWeb&gt;&lt;/defaultWeb&gt;
+&lt;nameField&gt;&lt;/nameField&gt;
+&lt;validationScript&gt;&lt;/validationScript&gt;
+&lt;fopxsl&gt;
+&lt;disabled&gt;0&lt;/disabled&gt;
+&lt;name&gt;fopxsl&lt;/name&gt;
+&lt;number&gt;3&lt;/number&gt;
+&lt;prettyName&gt;fopxsl&lt;/prettyName&gt;
+&lt;rows&gt;5&lt;/rows&gt;
+&lt;size&gt;40&lt;/size&gt;
+&lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+&lt;classType&gt;com.xpn.xwiki.objects.classes.TextAreaClass&lt;/classType&gt;
+&lt;/fopxsl&gt;
+&lt;style&gt;
+&lt;disabled&gt;0&lt;/disabled&gt;
+&lt;name&gt;style&lt;/name&gt;
+&lt;number&gt;1&lt;/number&gt;
+&lt;prettyName&gt;style&lt;/prettyName&gt;
+&lt;rows&gt;5&lt;/rows&gt;
+&lt;size&gt;40&lt;/size&gt;
+&lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+&lt;classType&gt;com.xpn.xwiki.objects.classes.TextAreaClass&lt;/classType&gt;
+&lt;/style&gt;
+&lt;xhtmlxsl&gt;
+&lt;disabled&gt;0&lt;/disabled&gt;
+&lt;name&gt;xhtmlxsl&lt;/name&gt;
+&lt;number&gt;2&lt;/number&gt;
+&lt;prettyName&gt;xhtmlxsl&lt;/prettyName&gt;
+&lt;rows&gt;5&lt;/rows&gt;
+&lt;size&gt;40&lt;/size&gt;
+&lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+&lt;classType&gt;com.xpn.xwiki.objects.classes.TextAreaClass&lt;/classType&gt;
+&lt;/xhtmlxsl&gt;
+&lt;/class&gt;
+&lt;name&gt;Business Case.PDFTemplate&lt;/name&gt;
+&lt;number&gt;0&lt;/number&gt;
+&lt;className&gt;Business Case.PDFClass&lt;/className&gt;
+&lt;guid&gt;f03e35f0-566e-4a34-b121-7a65fe3fbf02&lt;/guid&gt;
+&lt;property&gt;
+&lt;fopxsl&gt;&lt;/fopxsl&gt;
+&lt;/property&gt;
+&lt;property&gt;
+&lt;style&gt;.footer
+{
+  text-align: left;
+}&lt;/style&gt;
+&lt;/property&gt;
+&lt;property&gt;
+&lt;xhtmlxsl&gt;&lt;/xhtmlxsl&gt;
+&lt;/property&gt;
+&lt;/object&gt;
+&lt;content&gt;&lt;/content&gt;&lt;/xwikidoc&gt;
+@
+
+
+1.3
+log
+@@
+text
+@d14 1
+a14 1
+&lt;date&gt;1408537349000&lt;/date&gt;
+d16 1
+a16 1
+&lt;version&gt;1.3&lt;/version&gt;
+@
+
+
+1.2
+log
+@Added object
+@
+text
+@d14 1
+a14 1
+&lt;date&gt;1408460435000&lt;/date&gt;
+d16 1
+a16 1
+&lt;version&gt;1.2&lt;/version&gt;
+d20 1
+a20 1
+&lt;comment&gt;Added object&lt;/comment&gt;
+d25 40
+d69 12
+@
+
+
+1.1
+log
+@@
+text
+@d13 4
+a16 4
+&lt;creationDate&gt;1408460401000&lt;/creationDate&gt;
+&lt;date&gt;1408460410000&lt;/date&gt;
+&lt;contentUpdateDate&gt;1408460410000&lt;/contentUpdateDate&gt;
+&lt;version&gt;1.1&lt;/version&gt;
+d20 2
+a21 2
+&lt;comment&gt;&lt;/comment&gt;
+&lt;minorEdit&gt;false&lt;/minorEdit&gt;
+d24 6
+@
+</versions></xwikidoc>
