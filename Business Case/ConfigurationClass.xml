@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Business Case</web>
+<name>ConfigurationClass</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent>XWiki.XWikiClasses</parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1408708156000</creationDate>
+<date>1408708422000</date>
+<contentUpdateDate>1408708422000</contentUpdateDate>
+<version>2.1</version>
+<title>Configuration Class</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment>Bind class sheet.</comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<class>
+<name>Business Case.ConfigurationClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<logo>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>logo</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Logo</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</logo>
+</class>
+<object>
+<class>
+<name>XWiki.ClassSheetBinding</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<sheet>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>sheet</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Sheet</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</sheet>
+</class>
+<name>Business Case.ConfigurationClass</name>
+<number>0</number>
+<className>XWiki.ClassSheetBinding</className>
+<guid>769c5d18-5af4-40f3-8cfd-001a06e78db4</guid>
+<property>
+<sheet>ConfigurationSheet</sheet>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.DocumentSheetBinding</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<sheet>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>sheet</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Sheet</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</sheet>
+</class>
+<name>Business Case.ConfigurationClass</name>
+<number>0</number>
+<className>XWiki.DocumentSheetBinding</className>
+<guid>365d72ec-044b-45d5-9c39-38d15d2396b7</guid>
+<property>
+<sheet>XWiki.ClassSheet</sheet>
+</property>
+</object>
+<content>{{velocity}}
+## Replace the default space with the space where you want your documents to be created.
+## Replace the default parent with the one of your choice and save the document.
+##
+#set($defaultSpace = $doc.space)
+#set($defaultParent = $doc.fullName)
+{{/velocity}}</content></xwikidoc>

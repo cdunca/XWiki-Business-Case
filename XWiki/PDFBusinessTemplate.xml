@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>XWiki</web>
+<name>PDFBusinessTemplate</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1408631234000</creationDate>
+<date>1408980238000</date>
+<contentUpdateDate>1408631234000</contentUpdateDate>
+<version>2.69</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>XWiki.PDFClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<fopxsl>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>---</editor>
+<name>fopxsl</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>fopxsl</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</fopxsl>
+<style>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>---</editor>
+<name>style</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>style</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</style>
+<xhtmlxsl>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>---</editor>
+<name>xhtmlxsl</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>xhtmlxsl</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</xhtmlxsl>
+</class>
+<name>XWiki.PDFBusinessTemplate</name>
+<number>0</number>
+<className>XWiki.PDFClass</className>
+<guid>f1737f2d-eb67-4fe4-b576-1feb7e67a0b6</guid>
+<property>
+<fopxsl></fopxsl>
+</property>
+<property>
+<style>#template('colorThemeInit.vm')
+
+.clearfloat
+{
+	clear: both;
+	display: table;
+}
+
+.page-header .headline
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+        position:relative;
+        top: -10%;
+}
+
+.sub-header .left
+{
+        width: 50%;	
+}
+
+.sub-header .right { 
+        left: 50%; 
+        position:absolute; 
+        top: 65%; 
+        height: 200px;
+	width: 228px; 
+        text-align: right;
+}
+
+.sub-header .right img
+{
+        height: 200px;
+	width: 350px; 
+}
+
+.sub-header .solution-icon
+{
+	width: 16px;
+	height: 16px;
+	margin: 2%;
+}
+
+.sub-header .infos
+{
+	margin: 2% 2% 2% 0;
+	border-style: solid;
+        border-width: 1px;
+        border-color: #000;
+	padding: 5px;
+	width: 75%;
+        height: 116px;
+}
+
+.infos p
+{
+  margin-left:0;
+  padding-left: 2%;
+}
+
+
+.testimonials
+{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 1.6em;
+	margin-bottom: 2%;
+}
+
+p.title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+div.text
+{
+	border-style: solid;
+        border-width: 1px;
+        border-color: #000;
+	padding: 2px;
+}
+
+.footer ul
+{
+	margin: 0 0 0 2em;
+}
+
+#xwikicontent 
+{
+  position:relative;
+  top: -50px;
+}
+
+.footer .wikimodel-emptyline
+{
+	height: 0px;
+}
+
+.logo img
+{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}</style>
+</property>
+<property>
+<xhtmlxsl></xhtmlxsl>
+</property>
+</object>
+<content></content></xwikidoc>
