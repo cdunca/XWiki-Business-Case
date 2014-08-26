@@ -50,4 +50,81 @@
 <className>Business Case.ConfigurationClass</className>
 <guid>c95d3eb7-e1fa-482a-88f6-89b8ddac544e</guid>
 </object>
-<content></content></xwikidoc>
+<content></content>
+<versions>head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2014.08.22.14.49.28;	author XWiki_2EAdmin;	state full;
+branches;
+next	1.1;
+
+1.1
+date	2014.08.22.14.49.21;	author XWiki_2EAdmin;	state diff;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Added object
+@
+text
+@&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xwikidoc&gt;
+&lt;web&gt;Business Case&lt;/web&gt;
+&lt;name&gt;ConfigurationTemplate&lt;/name&gt;
+&lt;language&gt;&lt;/language&gt;
+&lt;defaultLanguage&gt;en&lt;/defaultLanguage&gt;
+&lt;translation&gt;0&lt;/translation&gt;
+&lt;parent&gt;Business Case.ConfigurationClass&lt;/parent&gt;
+&lt;creator&gt;XWiki.Admin&lt;/creator&gt;
+&lt;author&gt;XWiki.Admin&lt;/author&gt;
+&lt;customClass&gt;&lt;/customClass&gt;
+&lt;contentAuthor&gt;XWiki.Admin&lt;/contentAuthor&gt;
+&lt;creationDate&gt;1408708161000&lt;/creationDate&gt;
+&lt;date&gt;1408708168000&lt;/date&gt;
+&lt;contentUpdateDate&gt;1408708168000&lt;/contentUpdateDate&gt;
+&lt;version&gt;1.2&lt;/version&gt;
+&lt;title&gt;Configuration Template&lt;/title&gt;
+&lt;defaultTemplate&gt;&lt;/defaultTemplate&gt;
+&lt;validationScript&gt;&lt;/validationScript&gt;
+&lt;comment&gt;Added object&lt;/comment&gt;
+&lt;minorEdit&gt;true&lt;/minorEdit&gt;
+&lt;syntaxId&gt;xwiki/2.1&lt;/syntaxId&gt;
+&lt;hidden&gt;false&lt;/hidden&gt;
+&lt;object&gt;
+&lt;name&gt;Business Case.ConfigurationTemplate&lt;/name&gt;
+&lt;number&gt;0&lt;/number&gt;
+&lt;className&gt;Business Case.ConfigurationClass&lt;/className&gt;
+&lt;guid&gt;c95d3eb7-e1fa-482a-88f6-89b8ddac544e&lt;/guid&gt;
+&lt;/object&gt;
+&lt;content&gt;&lt;/content&gt;&lt;/xwikidoc&gt;
+@
+
+
+1.1
+log
+@@
+text
+@d13 4
+a16 4
+&lt;creationDate&gt;1408708158000&lt;/creationDate&gt;
+&lt;date&gt;1408708161000&lt;/date&gt;
+&lt;contentUpdateDate&gt;1408708161000&lt;/contentUpdateDate&gt;
+&lt;version&gt;1.1&lt;/version&gt;
+d20 2
+a21 2
+&lt;comment&gt;&lt;/comment&gt;
+&lt;minorEdit&gt;false&lt;/minorEdit&gt;
+d24 6
+@
+</versions></xwikidoc>

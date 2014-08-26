@@ -2,14 +2,14 @@
 <package>
 <infos/>
 <name>Business Case</name>
-<description>Simple internal app to manage business documents</description>
+<description>Simple internal app for business documents</description>
 <licence>LGPL</licence>
 <author>Cristian Dunca</author>
-<version>0.2</version>
+<version>0.25</version>
 <backupPack>false</backupPack>
 <preserveVersion>false</preserveVersion><files>
-<file defaultAction="0" language="">XWiki.DefaultSkin</file>
 <file defaultAction="0" language="">XWiki.PDFBusinessTemplate</file>
+<file defaultAction="0" language="">XWiki.DefaultSkin</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseSheet</file>
 <file defaultAction="0" language="">Business Case.WebHome</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseTemplate</file>
