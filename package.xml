@@ -2,10 +2,10 @@
 <package>
 <infos/>
 <name>Business Case</name>
-<description>Simple internal app for business documents</description>
+<description>Simple internal app for business case documents</description>
 <licence>LGPL</licence>
 <author>Cristian Dunca</author>
-<version>0.25</version>
+<version>1.1</version>
 <backupPack>false</backupPack>
 <preserveVersion>false</preserveVersion><files>
 <file defaultAction="0" language="">XWiki.PDFBusinessTemplate</file>
