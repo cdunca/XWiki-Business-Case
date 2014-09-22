@@ -11,9 +11,9 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1408357207000</creationDate>
-<date>1409146228000</date>
-<contentUpdateDate>1409146228000</contentUpdateDate>
-<version>13.11</version>
+<date>1411401198000</date>
+<contentUpdateDate>1411401154000</contentUpdateDate>
+<version>14.39</version>
 <title></title>
 <defaultTemplate></defaultTemplate>
 <validationScript></validationScript>
@@ -199,92 +199,134 @@
 <cache>forbid</cache>
 </property>
 <property>
-<code>.clearfloat
+<code>#xwikicontent
 {
-	clear: both;
-	display: table;
+  overflow: hidden;
+}
+
+.clearfloat
+{
+  clear: both;
+  display: table;
+        height: 1px;
 }
 
 .page-header .headline
 {
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
-	margin: 2% 0 5% 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 2% 0 5% 0;
 }
 
 .sub-header .left
 {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 65%;
 }
 
 .sub-header .right
 {
-	float: left;
-	width: 49%;
+  float: left;
+  width: 32%;
 }
 
 .sub-header .solution-icon
 {
-	width: 150px;
-	height: 150px;
-	margin: 2%;
+  margin: 0 0 2% 2%;
 }
 
-.sub-header .infos
+.sub-header .solution-icon img
 {
-	margin: 2%;
-	border: 1px #000 solid;
-	padding: 5px;
-	width: 75%;
-        min-height: 150px;
+  width : 100%;
+  border: 1px #AFABAB solid;
+}
+
+.sub-header 
+{
+  margin: 0 0 2% 2%;
+  background: #E9E9E9;
+  padding: 5px;
+  width: 100%;
+}
+
+.infos p
+{
+  font-weight: bold;
+}
+
+.infos p label
+{
+  font-weight: normal;
+}
+
+.text p
+{
+  font-style: italic;
 }
 
 .screenshot
 {
-	border: 1px #000 solid;
-	height: 200px;
-	width: 350px;
-	float: right;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.screenshot img
+{
+       width: 100%;
 }
 
 .testimonials
 {
-	margin-top: 3%;
-	text-align: center;
-	font-size: 1.6em;
-	margin-bottom: 6%;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 6%;
         font-family: Georgia;
         font-style: italic;
+        position: relative;
+}
+
+.testimonials span.by
+{
+       position:absolute; 
+       font-style: normal;
+       top: 55px;
+       margin-left: -90px;
 }
 
 p.title
 {
-	font-size: 1.5em;
-	font-weight: bold;
-	padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 3px 0 3px 8px;
+        border-left: 2px #FD7613 solid;
+        color: #67666B;
 }
 
 div.text
 {
-	border: 1px #000 solid;
-	padding: 2px;
+  padding: 2px 0 0 3%;
+}
+
+.footer
+{
+        margin-top: 5%;
 }
 
 .footer ul
 {
-	margin: 0 0 0 2em;
+  margin: 0 0 0 2em;
 }
 
 .footer p:last-child
 {
-	text-align: center;
+  text-align: center;
 }
 
 .footer .wikimodel-emptyline
 {
-	height: 0;
+  height: 0;
 }
 
 .footer div p:last-child
@@ -308,6 +350,11 @@ span.rightquote img
 {
   position: relative;
   top: 20px;
+}
+
+#actionBox, #HEntries
+{
+  display: none;
 }</code>
 </property>
 <property>
@@ -329,25 +376,17 @@ $xwiki.ssx.use("Business Case.BusinessCaseSheet")
 #set($logourl = $xwiki.getAttachmentURL("Business Case.WebHome","logo"))
 {{html wiki="true" clean="false"}}
 &lt;div class="page-header"&gt;
-   &lt;div class="logo"&gt;
-#if($context.action == "export")
-     [[image:WebHome@logo.jpg]]
-#else
-     &lt;img src="$logourl" alt="Wiki Logo"/&gt;       
-#end
-   &lt;/div&gt;
    &lt;div class="headline"&gt;
      $doc.display('shortText1')
    &lt;/div&gt;
 &lt;/div&gt;
+#if($context.action == "view")
 &lt;div class="sub-header"&gt;
-  &lt;div class="left"&gt;
-     &lt;div class="solution-icon"&gt;
-#if($doc.get('shortText8') != "")
-#set($icon = $doc.get('shortText8'))
-        [[image:$icon||width="150" height="150"]]
+#elseif ($context.action == "export")
+&lt;table class="sub-header" width="100%"&gt;
+&lt;tr&gt;&lt;td&gt;
 #end
-     &lt;/div&gt;
+  &lt;div class="left"&gt;
      &lt;div class="infos"&gt;
 #if($context.action == "view")
 &lt;p&gt;&lt;label&gt;$msg.get('businesscase.clientName') &lt;/label&gt;$doc.display('shortText2')&lt;/p&gt;
@@ -362,13 +401,31 @@ $xwiki.ssx.use("Business Case.BusinessCaseSheet")
 #end
      &lt;/div&gt;
   &lt;/div&gt;
+#if ($context.action == "export")
+  &lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;
+#end
   &lt;div class="right"&gt;
-    &lt;div class="screenshot"&gt;[[image:$obj.getProperty('shortText6').value||width="350" height="200"]]&lt;/div&gt;
+    &lt;div class="solution-icon"&gt;
+#if($doc.get('shortText8') != "")
+#set($icon = $doc.get('shortText8'))
+        [[image:$icon||width="180" height="180"]]
+#end
+     &lt;/div&gt;
   &lt;/div&gt;
   &lt;div class="clearfloat"&gt;&lt;/div&gt;
+#if ($context.action == "view")
 &lt;/div&gt;
+#elseif ($context.action == "export")
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+#end
 &lt;div class="content"&gt;
-  &lt;p class="testimonials"&gt;[[image:XWiki.PDFBusinessTemplate@quote-left.png]]$doc.display('shortText7')  &lt;span class="rightquote"&gt;[[image:XWiki.PDFBusinessTemplate@quote-right.png]]&lt;/span&gt;&lt;/p&gt;
+  &lt;div class="screenshot"&gt;[[image:$obj.getProperty('shortText6').value]]&lt;/div&gt;
+  &lt;p class="testimonials"&gt;[[image:XWiki.PDFBusinessTemplate@quote-left.png]]$doc.display('shortText7')  &lt;span class="rightquote"&gt;[[image:XWiki.PDFBusinessTemplate@quote-right.png]]&lt;/span&gt;
+#if($context.action=="view")
+&lt;span class="by"&gt;$doc.display('testimonial_name')&lt;/span&gt;&lt;/p&gt;
+#else
+&lt;/p&gt;&lt;p class="by"&gt;$doc.display('testimonial_name')&lt;/p&gt;
+#end
 #if($obj.getProperty('longText2').value != "")
   &lt;div class="context"&gt;
     &lt;p class="title"&gt;$msg.get('businesscase.context_and_needs')&lt;/p&gt;
@@ -392,7 +449,8 @@ $xwiki.ssx.use("Business Case.BusinessCaseSheet")
   $doc.display('longText5')
 &lt;/div&gt;
 #if($context.action == "view")
-&lt;p class="footer"&gt;XWiki SAS - 35 / 37 rue Beaubourg, 75003 Paris, France - 01 45 42 40 90 - www.xwiki.com&lt;/p&gt;
+#set($confDoc = $xwiki.getDocument("Business Case","Configuration"))
+&lt;p class="footer"&gt;$confDoc.display('footer')&lt;/p&gt;
 #end
 {{/html}}
 #else
@@ -427,6 +485,8 @@ displayImage="true" width="350px" height="200px"/}}
   : $doc.display('longText4')
   ; &lt;label for="Business Case.BusinessCaseClass_0_shortText7"&gt;$escapetool.xml($doc.displayPrettyName('shortText7', false, false))&lt;/label&gt;
   : $doc.display('shortText7')
+; &lt;label for="Business Case.BusinessCaseClass_0_testimonial_name"&gt;$escapetool.xml($doc.displayPrettyName('testimonial_name', false, false))&lt;/label&gt;
+  : $doc.display('testimonial_name')
   ; &lt;label for="Business Case.BusinessCaseClass_0_longText5"&gt;$escapetool.xml($doc.displayPrettyName('longText5', false, false))&lt;/label&gt;
   : $doc.display('longText5')
 )))

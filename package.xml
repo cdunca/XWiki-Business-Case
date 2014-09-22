@@ -2,22 +2,23 @@
 <package>
 <infos/>
 <name>Business Case</name>
-<description>Simple internal app for business case documents</description>
+<description>simple business appplication to manage documents</description>
 <licence>LGPL</licence>
-<author>Cristian Dunca</author>
-<version>1.1</version>
+<author>Cristi Dunca</author>
+<version></version>
 <backupPack>false</backupPack>
 <preserveVersion>false</preserveVersion><files>
-<file defaultAction="0" language="">XWiki.PDFBusinessTemplate</file>
-<file defaultAction="0" language="">XWiki.DefaultSkin</file>
+<file defaultAction="0" language="">Business Case.Configuration</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseSheet</file>
-<file defaultAction="0" language="">Business Case.WebHome</file>
+<file defaultAction="0" language="">Business Case.Translations</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseTemplate</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseClass</file>
+<file defaultAction="0" language="">Business Case.WebHome</file>
 <file defaultAction="0" language="">Business Case.ConfigurationClass</file>
 <file defaultAction="0" language="">Business Case.ConfigurationSheet</file>
 <file defaultAction="0" language="">Business Case.ConfigurationTemplate</file>
-<file defaultAction="0" language="">Business Case.Translations</file>
 <file defaultAction="0" language="">Business Case.WebPreferences</file>
 <file defaultAction="0" language="">Business Case.BusinessCaseLiveTableResults</file>
-<file defaultAction="0" language="">Business Case.BusinessCaseTranslations</file></files></package>
+<file defaultAction="0" language="">Business Case.BusinessCaseTranslations</file>
+<file defaultAction="0" language="">XWiki.PDFBusinessTemplate</file>
+<file defaultAction="0" language="">XWiki.DefaultSkin</file></files></package>

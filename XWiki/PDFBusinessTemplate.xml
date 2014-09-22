@@ -11,9 +11,9 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1408631234000</creationDate>
-<date>1409146323000</date>
-<contentUpdateDate>1409139748000</contentUpdateDate>
-<version>17.36</version>
+<date>1411400143000</date>
+<contentUpdateDate>1409295113000</contentUpdateDate>
+<version>25.86</version>
 <title></title>
 <defaultTemplate></defaultTemplate>
 <validationScript></validationScript>
@@ -10984,7 +10984,7 @@ YFnlXx+jhvPQ8PBd+m8AHUnPDIAfFfkAAAAASUVORK5CYII=
 <filename>xhtml2fo.xsl</filename>
 <filesize>102949</filesize>
 <author>XWiki.Admin</author>
-<date>1409054569000</date>
+<date>1409295113000</date>
 <version>1.1</version>
 <comment></comment><content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLQoKQ29weXJpZ2h0IEFu
 dGVubmEgSG91c2UsIEluYy4gKGh0dHA6Ly93d3cuYW50ZW5uYWhvdXNlLmNvbSkgMjAwMSwgMjAw
@@ -11024,8 +11024,8 @@ PT0KICAgIFBhcmFtZXRlcnMKICAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
 PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09LS0+CgogICAgPCEtLSBwYWdlIHNp
 emUgLS0+CiAgICA8eHNsOnBhcmFtIG5hbWU9InBhZ2Utd2lkdGgiPmF1dG88L3hzbDpwYXJhbT4K
 ICAgIDx4c2w6cGFyYW0gbmFtZT0icGFnZS1oZWlnaHQiPmF1dG88L3hzbDpwYXJhbT4KICAgIDx4
-c2w6cGFyYW0gbmFtZT0icGFnZS1tYXJnaW4tdG9wIj4wLjFpbjwveHNsOnBhcmFtPgogICAgPHhz
-bDpwYXJhbSBuYW1lPSJwYWdlLW1hcmdpbi1ib3R0b20iPjAuNWluPC94c2w6cGFyYW0+CiAgICA8
+c2w6cGFyYW0gbmFtZT0icGFnZS1tYXJnaW4tdG9wIj4wLjZpbjwveHNsOnBhcmFtPgogICAgPHhz
+bDpwYXJhbSBuYW1lPSJwYWdlLW1hcmdpbi1ib3R0b20iPjAuOGluPC94c2w6cGFyYW0+CiAgICA8
 eHNsOnBhcmFtIG5hbWU9InBhZ2UtbWFyZ2luLWxlZnQiPjFpbjwveHNsOnBhcmFtPgogICAgPHhz
 bDpwYXJhbSBuYW1lPSJwYWdlLW1hcmdpbi1yaWdodCI+MWluPC94c2w6cGFyYW0+CgogICAgPCEt
 LSBwYWdlIGhlYWRlciBhbmQgZm9vdGVyIC0tPgogICAgPHhzbDpwYXJhbSBuYW1lPSJwYWdlLWhl
@@ -12931,98 +12931,128 @@ h3 {
 
 .clearfloat
 {
-	clear: both;
-	display: table;
+  clear: both;
+  display: table;
 }
 
 
 .page-header .headline
 {
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
- 
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 4%;
 }
+
 
 .sub-header .left
 {
-        width: 60%;	
-        padding-top: 5%;
+  width: 200%; 
+  padding-top: 1%;
 }
 
 .sub-header .right { 
-        left: 60%; 
-        position:absolute; 
-        top: 122px; 
-        height: 200px;
-	width: 228px; 
-        text-align: right;
+  width: 35%; 
+  text-align: right;
 }
 
-
-.right img
+.solution-icon
 {
-        height: 200px;
-	width: 350px; 
+  width: 130px;
 }
 
 .solution-icon img
 {
-	width: 150px;
-	height: 150px;
-	margin: 0;
+  width: 100%;
+  height: 100%;
+  border: solid;
+  border-width: 1px;
+  border-color: #AFABAB;
 }
 
-.sub-header .infos
+.sub-header
 {
-	margin: -20px 2% 2% 0;
-	border-style: solid;
-        border-width: 1px;
-        border-color: #000;
-	padding: 5px 0 5px 5px;
-	width: 100%;
+  margin: 0 2% 2% 0;
+  background-color: #E9E9E9;
+  padding: 5px 0 5px 5px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
-.infos p
+
+
+.infos span
 {
+  font-weight: bold;
+  padding-top: 1%;
   padding-left: 1%;
+  padding-bottom: 2%;
   text-align: left;
+  font-size: 1.3em;
+  display: block;
 }
 
 .infos label
 {
   display: inline;
+  font-weight: normal;
 }
 
 .testimonials
 {
-	margin-top: 4%;
-	text-align: center;
-	font-size: 1.6em;
-	margin-bottom: 2%;
-        font-family: Georgia;
-        font-style: italic;
+  margin-top: 4%;
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 2%;
+  font-family: Georgia;
+  font-style: italic;
+  position: relative;
+}
+
+.by
+{
+  font-family: Georgia;
+  text-align: center;
+  font-size: 1.4em;    
+}
+
+.screenshot
+{
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 100%;
+  text-align:center;
+}
+
+.screenshot img
+{
+   margin-left: 50%;
+   text-align: center;
+   width: 50%;
 }
 
 p.title
 {
-	font-size: 1.5em;
-	font-weight: bold;
-	padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 3px 0 3px 8px;
+  color: #67666B;
+  border-left: solid;
+  border-left-color: #F48331;
+  border-left-width: 1px;
+  border-left-style: solid;
 }
 
 div.text
 {
-	border-style: solid;
-        border-width: 1px;
-        border-color: #000;
-	padding: 2px;
-        width: 110%;
+  padding: 2px 0 0 3%;
+  width: 100%;
+  font-style: italic;
 }
 
 .footer ul
 {
-	margin: 0 0 0 2em;
+  margin: 0 0 0 2em;
 }
 
 #xwikicontent 
@@ -13033,27 +13063,27 @@ div.text
 
 .footer .wikimodel-emptyline
 {
-	height: 0px;
+  height: 0px;
 }
 
 .footer
 {
-        text-align: center;
+  text-align: center;
 }
 
 .logo img
 {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top: -20px;
-    left: 0;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: -20px;
+  left: 0;
 }
 
 .testimonials img
 {
-   width: 35px;
-   height: 25px;
+  width: 35px;
+  height: 25px;
 }
 
 .rightquote img

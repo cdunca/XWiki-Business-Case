@@ -11,9 +11,9 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1404825537000</creationDate>
-<date>1409053504000</date>
+<date>1409313161000</date>
 <contentUpdateDate>1408706785000</contentUpdateDate>
-<version>3.17</version>
+<version>4.5</version>
 <title></title>
 <defaultTemplate></defaultTemplate>
 <validationScript></validationScript>
@@ -390,7 +390,8 @@ AKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKA//Z
 <name>Default XWiki Skin</name>
 </property>
 <property>
-<pdffooter.vm>&lt;p class="footer"&gt;XWiki SAS - 35 / 37 rue Beaubourg, 75003 Paris, France - 01 45 42 40 90 - www.xwiki.com&lt;/p&gt;</pdffooter.vm>
+<pdffooter.vm>#set($confDoc = $xwiki.getDocument("Business Case","Configuration"))
+&lt;p class="footer"&gt;$confDoc.display('footer')&lt;/p&gt;</pdffooter.vm>
 </property>
 <property>
 <pdfheader.vm>#set ($title = "")
